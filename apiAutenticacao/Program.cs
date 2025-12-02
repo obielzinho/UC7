@@ -1,5 +1,6 @@
 
 using apiAutenticacao.Data;
+using apiAutenticacao.Services;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -13,7 +14,8 @@ namespace apiAutenticacao
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            
+            builder.Services.AddScoped<AuthService>();
+
 
             // Add services to the container.
 

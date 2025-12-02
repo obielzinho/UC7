@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\",
+  "WorkspaceRootPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\02_aula\\apiautenticacao\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\uc7\\apiautenticacao\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\uc7\\apiautenticacao\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\02_aula\\apiautenticacao\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\uc7\\apiautenticacao\\models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\02_aula\\apiautenticacao\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\uc7\\apiautenticacao\\models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\02_aula\\apiautenticacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|c:\\users\\gabriel.mdionato\\onedrive - senac - sp\\curso tecnico ds\\uc7\\uc7\\apiautenticacao\\models\\response\\responsenovasenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3349B503-D1CC-4DF4-95B9-D45A5AC576D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsenovasenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T00:11:33.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T23:08:47.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Title": "ResponseCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseCadastro.cs",
+              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T01:01:38.51Z",
+              "WhenOpened": "2025-12-02T22:48:49.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Title": "ResponseLogin.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseLogin.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseLogin.cs",
+              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseLogin.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T23:27:28.63Z",
+              "WhenOpened": "2025-12-02T22:48:50.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:33:32.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:18:32.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseNovaSenha.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseNovaSenha.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseNovaSenha.cs",
+              "ToolTip": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\Models\\Response\\ResponseNovaSenha.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseNovaSenha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:05:58.067Z",
               "EditorCaption": ""
             }
           ]

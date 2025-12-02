@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\apiAutenticacao.csproj": {}
+    "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\apiAutenticacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\apiAutenticacao.csproj": {
+    "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\apiAutenticacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\apiAutenticacao.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\apiAutenticacao.csproj",
         "projectName": "apiAutenticacao",
-        "projectPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\apiAutenticacao.csproj",
+        "projectPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\apiAutenticacao.csproj",
         "packagesPath": "C:\\Users\\gabriel.mdionato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XCJOscrmRHw=",
+  "dgSpecHash": "mQKPY1VF50c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\02_aula\\apiAutenticacao\\apiAutenticacao.csproj",
+  "projectFilePath": "C:\\Users\\gabriel.mdionato\\OneDrive - SENAC - SP\\Curso tecnico DS\\UC7\\UC7\\apiAutenticacao\\apiAutenticacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.mdionato\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\gabriel.mdionato\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

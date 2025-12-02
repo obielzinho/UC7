@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static BCrypt.Net.BCrypt;
 using BCrypt.Net;
+using apiAutenticacao.Services;
+using apiAutenticacao.Models.Response;
 
 namespace apiAutenticacao.Controllers
 {
@@ -14,70 +16,74 @@ namespace apiAutenticacao.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly AuthService _authService;
 
-        public UsuariosController (AppDbContext context)
+        public UsuariosController(AppDbContext context, AuthService authService)
         {
+            _authService = authService;
             _context = context;
         }
 
         [HttpPost("cadastrar")]
-        public async Task<ActionResult> CadastrarUsuarioAsync([FromBody] CadastroUsuarioDTO dadosUsuario) 
-        {
-            if (!ModelState.IsValid) {
-                return BadRequest(ModelState);
-            }
-
-             Usuario? usuarioExistente = await _context.Usuarios.
-                FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
-
-            if (usuarioExistente != null)
-                {
-                return BadRequest(new { Mensagem = "Este email ja esta cadastrado!" });
-            }
-            Usuario Usuario = new Usuario
-            {
-                Nome = dadosUsuario.Nome,
-                Email = dadosUsuario.Email,
-                Senha = HashPassword(dadosUsuario.Senha),
-                ConfirmarSenha = dadosUsuario.ConfirmarSenha
-     
-            };
-            _context.Usuarios.Add(Usuario);
-            await _context.SaveChangesAsync();
-
-            return Ok(new
-            {
-                id = Usuario.Id,
-                nome = Usuario.Nome,
-                email = Usuario.Email
-
-
-            }); 
-
-
-        }
-        [HttpPost ("Login")]
-       public async Task<IActionResult> Login([FromBody] LoginDTO dadosUsuario)
+        public async Task<ActionResult> CadastrarUsuarioAsync([FromBody] CadastroUsuarioDTO dadosUsuario)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-          Usuario ?  usuarioEncontrado  = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
-      
-            if (usuarioEncontrado != null)
+
+            ResponseCadastro response = await _authService.CadastrarUsuarioAsync(dadosUsuario);
+
+            if (response.Erro)
             {
-                bool isValidPassword = Verify(dadosUsuario.Senha, usuarioEncontrado.Senha);
-           
-                if (isValidPassword)
-                {
-                    return Ok(" Login realizado com sucesso");
-                }
-                return Unauthorized(" Login não realizado . Email ou senha incorretos");
+
+                return BadRequest(response.Erro);
             }
 
-            return NotFound(" Usuario não encontrado ");
+            return Ok(response);
         }
 
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginDTO dadosUsuario)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            ResponseLogin response = await _authService.Login(dadosUsuario);
+
+            if (response.Erro)
+            {
+
+                return BadRequest(response.Erro);
+            }
+
+            return Ok(response);
+        }
+        [HttpPut("AlterarSenha")]
+
+        public async Task<IActionResult> AlterarSenha([FromBody] AlterarSenhaDTO dadosAlterarSenha)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            Usuario? usuario = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosAlterarSenha.Email);
+            if (usuario == null)
+            {
+                return NotFound("Usuário não encontrado.");
+            }
+            bool isValidPassword = Verify(dadosAlterarSenha.SenhaAtual, usuario.Senha);
+            if (!isValidPassword)
+            {
+                return BadRequest("Senha atual incorreta.");
+            }
+            usuario.Senha = HashPassword(dadosAlterarSenha.NovaSenha);
+            _context.Usuarios.Update(usuario);
+            await _context.SaveChangesAsync();
+            return Ok("Senha alterada com sucesso.");
+        }
     }
 }
